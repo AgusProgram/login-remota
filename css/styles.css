@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.logo {
+	display: flex;
+	justify-content: center;
+}
+.logo-login  {
+    display: inline-block;
+    background-image: url(../img/logo-inicio-sesion.svg);
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 40px;
+    margin-top: 40px;
+}
+.login__input {
+	display: grid;
+    grid-gap: 20px;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 2.5rem;
+}
+.login__email, .login__password {
+    height: 48px;
+    min-width: 260px;
+    border-radius: 52px;
+	background: #F1F7FB;
+    border: none;
+    padding-left: 20px;
+    color: #687180;
+    opacity: 0.8;
+    font-weight: 400;
+}
+.btn__login {
+    height: 48px;
+    border-radius: 52px;
+    border: none;
+    font-weight: 600;
+    line-height: 26px;
+    font-size: 14px;
+    background: #FBDF4B;
+    color: #263448;
+    cursor: pointer;
+}
+.btn_profile {
+    height: 48px;
+    border-radius: 52px;
+    border: none;
+    font-weight: 600;
+    line-height: 26px;
+    font-size: 14px;
+    background-color: #101824;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.login__a {
+	text-align: center;
+	font-weight: 600;
+	text-decoration: none;
+	color: #263448;
+	font-size: 12px;
+    line-height: 26px;
+    margin-top: 5px;
+}
+.login__app {
+	display: grid;
+	grid-gap: 15px;
+	width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.login__google, 
+.login__zoom,
+.login__microsoft {
+    min-width: 260px;
+    height: 48px;
+    border-radius: 68px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF; 
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+}
+.login__google {
+    background: #FF5B5B;
+}
+.login__zoom {
+    background: #3287FF;
+}
+.login__microsoft {
+    background: #00B4EF;
+}
+.icon__google,
+.icon__zoom,
+.icon__microsoft {
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.icon__google {
+    background-image: url(../img/icon-google.svg);
+}
+.icon__zoom {
+	background-image: url(../img/icon-zoom.svg);
+	top: 1.4rem;
+	background-size: contain;
+	width: 1.5rem;
+	right: 10px;
+}
+.icon__microsoft {
+    background-image: url(../img/icon-microsoft.svg);
+}
